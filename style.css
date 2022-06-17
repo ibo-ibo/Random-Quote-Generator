@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  color: #212529;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 36px 84px;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 100px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.quote-text {
+  margin-bottom: 32px;
+  height: 80px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  background-color: #212529;
+  color: #fff;
+  border-radius: 8px;
+}
